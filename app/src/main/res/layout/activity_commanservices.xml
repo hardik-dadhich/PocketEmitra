@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pockete_mita.Commanservices">
+
+    <ImageButton
+        android:id="@+id/adhar"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="@drawable/adhaar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aadhar Enrollment"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_above="@+id/toiletId"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="18dp" />
+
+    <ImageButton
+        android:id="@+id/bhama"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/bhamasa"
+        android:layout_alignStart="@+id/toiletId"
+        android:layout_alignTop="@+id/adhar"
+        android:layout_above="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhamasha Card"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/bhama" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/pancard"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   PAN Card"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <ImageButton
+        android:id="@+id/toiletId"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/tttt"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swachh_bharat_urban"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_below="@+id/toiletId"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_above="@+id/textView11"
+        android:layout_alignStart="@+id/textView"
+        android:background="@drawable/lpgstatus" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subsidy_status"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignStart="@+id/imageButton5" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/driving"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignStart="@+id/toiletId"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton6"
+        android:layout_below="@+id/imageButton6" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Comman  Govt.  services"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="25dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignEnd="@+id/textView12"
+        android:text="Driving Lisence"
+        android:textColor="@android:color/black"
+        android:textSize="13dp" />
+
+    <ImageButton
+        android:id="@+id/nextTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/nnn" />
+
+
+</RelativeLayout>

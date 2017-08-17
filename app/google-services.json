@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070922829936",
+    "firebase_url": "https://pockete-mitra.firebaseio.com",
+    "project_id": "pockete-mitra",
+    "storage_bucket": "pockete-mitra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070922829936:android:633498be0c939763",
+        "android_client_info": {
+          "package_name": "com.pockete_mita.pockete_mitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070922829936-voh3uvgqcvcspdhf65qtad1hf4s0483s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pockete_mita.pockete_mitra",
+            "certificate_hash": "d255999569645c393d9706aae67a734d93a6d7cd"
+          }
+        },
+        {
+          "client_id": "1070922829936-kn6jctiogi1e899hsavncaaer5m8l6lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiEboCVT1pIxEPIUXHUP9PkvkjHnix1UQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070922829936-kn6jctiogi1e899hsavncaaer5m8l6lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
