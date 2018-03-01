@@ -17,3 +17,6 @@ KEYS : - Android Studio Framwork , YOU-TUBE API , Google FireBase ,Meterial Desi
 
 grid view 
 ![alt tag](https://user-images.githubusercontent.com/25060629/36833688-4973ebcc-1d56-11e8-921f-53b9c1fd6475.png)
+
+compalin view 
+![alt tag](https://user-images.githubusercontent.com/25060629/36834061-9a572580-1d57-11e8-8caa-cfc2a2557809.png)
